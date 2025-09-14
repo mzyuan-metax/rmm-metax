@@ -4,7 +4,7 @@ Please checkout `25.10-metax` branche or download `25.10-metax` branch source co
 
 1. run maca docker maca container
 2. install dependencies: `apt-get install build-essential libssl-dev libz-dev git unzip -y`
-3. install cmake : `cmake-3.31.0 and wget https://cmake.org/files/v3.31/cmake-3.31.0.zip`
+3. install cmake : `cmake-3.30.4 and wget https://cmake.org/files/v3.30/cmake-3.30.4.zip`
 4. install cuda toolkit: download and `sh cuda_12.9.0_575.51.03_linux.run  --silent --toolkit --samples`
 5. install build dependencies: `pip install rapids-build-backend-metax==0.4.1.2 scikit-build-core===0.10.0 cuda-python`
 6. build on maca : `./build_maca.sh librmm rmm`
@@ -15,10 +15,10 @@ Please checkout `25.10-metax` branche or download `25.10-metax` branch source co
 
 1. run maca docker maca container
 2. install dependencies: `apt-get install build-essential libssl-dev libz-dev git unzip -y`
-3. install cmake : `cmake-3.31.0 and wget https://cmake.org/files/v3.31/cmake-3.31.0.zip`
+3. install cmake : `cmake-3.30.4 and wget https://cmake.org/files/v3.30/cmake-3.30.4.zip`
 4. install cuda toolkit: download and `sh cuda_12.9.0_575.51.03_linux.run  --silent --toolkit --samples`
 5. install build dependencies: `pip install rapids-build-backend-metax==0.4.1.2 scikit-build-core===0.10.0 cuda-python`
-6. build on maca : `./build_maca.sh librmm rmm`
+6. build on hpcc : `./build_hpcc.sh librmm rmm`
 
 
 ---
