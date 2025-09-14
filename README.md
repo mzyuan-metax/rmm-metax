@@ -1,3 +1,27 @@
+## 1.Build on MACA
+
+Please checkout `25.10-metax` branche or download `25.10-metax` branch source code.
+
+1. run maca docker maca container
+2. install dependencies: `apt-get install build-essential libssl-dev libz-dev git unzip -y`
+3. install cmake : `cmake-3.31.0 and wget https://cmake.org/files/v3.31/cmake-3.31.0.zip`
+4. install cuda toolkit: download and `sh cuda_12.9.0_575.51.03_linux.run  --silent --toolkit --samples`
+5. install build dependencies: `pip install rapids-build-backend-metax==0.4.1.2 scikit-build-core===0.10.0 cuda-python`
+6. build on maca : `./build_maca.sh librmm rmm`
+
+## 2.Build on HPCC
+
+Please checkout `25.10-metax` branche or download `25.10-metax` branch source code.
+
+1. run maca docker maca container
+2. install dependencies: `apt-get install build-essential libssl-dev libz-dev git unzip -y`
+3. install cmake : `cmake-3.31.0 and wget https://cmake.org/files/v3.31/cmake-3.31.0.zip`
+4. install cuda toolkit: download and `sh cuda_12.9.0_575.51.03_linux.run  --silent --toolkit --samples`
+5. install build dependencies: `pip install rapids-build-backend-metax==0.4.1.2 scikit-build-core===0.10.0 cuda-python`
+6. build on maca : `./build_maca.sh librmm rmm`
+
+
+---
 # <div align="left"><img src="img/rapids_logo.png" width="90px"/>&nbsp;RMM: RAPIDS Memory Manager</div>
 
 **NOTE:** For the latest stable [README.md](https://github.com/rapidsai/rmm/blob/main/README.md) ensure you are on the `main` branch.
