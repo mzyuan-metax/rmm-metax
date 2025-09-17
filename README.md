@@ -1,3 +1,14 @@
+# BUILD ON HPCC
+
+24.12-metax  is branch-24.12 with cuda 12.0 
+
+1. apt-get install build-essential libssl-dev libz-dev git unzip -y
+2. sh cuda_12.0.1_525.85.12_linux.run --silent --toolkit
+3. pip install rapids-logger==0.1.1 cython==3.1.4 cmake==3.26.4 rapids-build-backend-metax==0.3.3.2 scikit-build-core===0.10.0 cuda-python==11.8.3
+4. ./build_hpcc.sh librmm rmm
+
+---
+
 # <div align="left"><img src="img/rapids_logo.png" width="90px"/>&nbsp;RMM: RAPIDS Memory Manager</div>
 
 **NOTE:** For the latest stable [README.md](https://github.com/rapidsai/rmm/blob/main/README.md) ensure you are on the `main` branch.
